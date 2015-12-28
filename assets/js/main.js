@@ -178,7 +178,7 @@ function reset() {
     score = 0;
     credits.renderable = true;
     scoreText.setText("THE KEY\n TO SUCCESS");
-    instText.setText("CLICK TO APPLY\n COCO BUTTER");
+    instText.setText("CLICK TO APPLY\n COCOA BUTTER");
     gameOverText.renderable = false;
     birdie.body.allowGravity = false;
     birdie.angle = 0;
@@ -196,7 +196,7 @@ function anotherone() {
     score = 0;
     credits.renderable = true;
     scoreText.setText("THE KEY\n TO SUCCESS");
-    instText.setText("CLICK TO APPLY\n COCO BUTTER");
+    instText.setText("CLICK TO APPLY\n COCOA BUTTER");
     gameOverText.renderable = false;
     birdie.body.allowGravity = false;
     birdie.angle = 0;
