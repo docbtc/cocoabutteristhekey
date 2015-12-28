@@ -41,13 +41,25 @@
     $(function() {
       if (isMobile.apple.phone || isMobile.android.phone || isMobile.seven_inch) {
         $('.top-left').remove();
+      } else {
+        (adsbygoogle = window.adsbygoogle || []).push({});
       }
-    })();
+    });
   </script>
 </head>
 <body>
   <img class="top-left" src="assets/images/top-left.jpg" alt="Who did this" />
   <div id="screen"></div>
+
+  <div class="top-right-ad">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- top-right -->
+    <ins class="adsbygoogle"
+      style="display:inline-block;width:300px;height:600px"
+      data-ad-client="ca-pub-3335247198969748"
+      data-ad-slot="1397944916">
+    </ins>
+  </div>
 
   <script src="assets/js/phaser.min.js"></script>
   <script src="assets/js/main.js"></script>

@@ -11,6 +11,11 @@ body {
   position: absolute;
   left: 0;
 }
+.top-right-ad {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
 
 #screen {
   display: inline-block;
