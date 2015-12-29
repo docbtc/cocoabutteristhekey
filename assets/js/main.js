@@ -222,7 +222,6 @@ function start() {
     gameStarted = true;
 
     // Track every game started
-    ga('send', 'event', 'Game', 'play');
 }
 
 function flap() {
