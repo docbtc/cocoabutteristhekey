@@ -178,7 +178,7 @@ function reset() {
     score = 0;
     credits.renderable = true;
     scoreText.setText("THE KEY\n TO BIG BLOCKS");
-    instText.setText("CLICK TO GROW\n THE BLOCKS");
+    instText.setText("CLICK TO GROW\n THE BLOCKS SIZE");
     gameOverText.renderable = false;
     birdie.body.allowGravity = false;
     birdie.angle = 0;
@@ -195,8 +195,8 @@ function anotherone() {
     gameOver = false;
     score = 0;
     credits.renderable = true;
-    scoreText.setText("THE KEY\n TO SUCCESS");
-    instText.setText("CLICK TO APPLY\n COCOA BUTTER");
+    scoreText.setText("THE KEY\n TO BIG BLOCKS");
+    instText.setText("CLICK TO GROW\n THE BLOCK SIZE");
     gameOverText.renderable = false;
     birdie.body.allowGravity = false;
     birdie.angle = 0;
@@ -313,7 +313,7 @@ function addScore(_, inv) {
 
 function setGameOver() {
     gameOver = true;
-    instText.setText("CLICK DJ KHALED\nTO TRY AGAIN");
+    instText.setText("CLICK SATOSHI\nTO TRY AGAIN");
     instText.renderable = true;
     var hiscore = window.localStorage.getItem('hiscore');
     hiscore = hiscore ? hiscore : score;
