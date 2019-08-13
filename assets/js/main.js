@@ -319,7 +319,7 @@ function setGameOver() {
     hiscore = hiscore ? hiscore : score;
     hiscore = score > parseInt(hiscore, 10) ? score : hiscore;
     window.localStorage.setItem('hiscore', hiscore);
-    gameOverText.setText("THEY DONT WANT\n YOU TO SUCCEED");
+    gameOverText.setText("THEY DONT WANT\n BIGGER BLOCKS");
     gameOverText.renderable = true;
     // Stop all keys
     keys.forEachAlive(function(key) {
