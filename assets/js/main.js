@@ -177,8 +177,8 @@ function reset() {
     gameOver = false;
     score = 0;
     credits.renderable = true;
-    scoreText.setText("THE KEY\n TO SUCCESS");
-    instText.setText("CLICK TO APPLY\n COCOA BUTTER");
+    scoreText.setText("THE KEY\n TO BIG BLOCKS");
+    instText.setText("CLICK TO GROW\n THE BLOCKS");
     gameOverText.renderable = false;
     birdie.body.allowGravity = false;
     birdie.angle = 0;
